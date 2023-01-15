@@ -1,0 +1,218 @@
+.main {
+}
+
+//  HERO
+
+.hero {
+}
+.hero__container {
+    display: flex;
+    align-items: center;
+    padding-top: 6.7rem;
+    padding-bottom: 6.7rem;
+}
+.hero-info {
+    width: 100%;
+    max-width: 57.6rem;
+    margin-right: auto;
+}
+.hero-title {
+    margin-bottom: 1.1rem;
+    font-size: 39px;
+    line-height: 45px;
+}
+.hero-text {
+    margin-bottom: 3rem;
+    font-size: $global-font-size;
+    line-height: $global-line-height;
+}
+.hero-link {
+    color: $text-color-2;
+    padding: 1.5rem 2.5rem;
+    border-radius: .5rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    background-color: $white-color;
+}
+.hero-right {
+    width: 100%;
+    max-width: 57.6rem;
+    text-align: center;
+}
+.hero-img {
+    margin-right: auto;
+    margin-left: auto;
+}
+.hero-right__text {
+    color: $text-color-3;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    text-align: center;
+}
+
+//         TARMOQLAR-SECTION
+
+.tarmoqlar {
+    background-color: #d3d3d3;
+}
+.tarmoqlar__container {
+    padding: 4rem 0;
+}
+.tarmoqlar-list {
+    display: flex;
+    padding: 1rem 1.2rem;
+}
+.tarmoqlar-item:not(:last-child){
+    margin-right: 6.7rem;
+}
+.tarmoqlar-link {
+}
+.tarmoqlar-img {
+}
+
+//          WHATIS SECTION
+
+.whatis {
+    background-color: $white-color;
+    &__container{
+        padding-bottom: 8rem;
+       
+    }
+    &-info{
+      display: flex;
+      align-items: center;
+      margin-bottom: 2.6rem;
+    }  
+    &-text{
+        width: 100%;
+        max-width: 57.6rem;
+        & h2{
+            font-size: $main-title-font-size;
+            line-height: $main-title-line-height;
+            margin-bottom: 1rem;
+        }
+        & p{
+            width: 100%;
+            max-width: 51rem;
+        }
+    }
+    &-img{
+        width: 100%;
+        max-width: 57.6rem;
+        & img{
+            display: flex;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        & p{
+           color: #777777;
+           text-align: center;
+        }
+    }
+}
+
+
+//           LAYOUT SECTION
+
+.layout {
+    &__container{
+       padding-top: 8.9rem;
+       padding-bottom: 8rem;
+    }
+    .tip{
+       text-align: center;
+       margin-right: auto;
+       margin-left: auto;
+       & h4{
+        font-size: $main-title-font-size;
+        line-height: $main-title-line-height;
+        margin-bottom: 1.3rem;
+       }
+       & p{
+        margin-bottom: 4rem;
+       }
+       & img{
+           margin-right: auto;
+           margin-left: auto;
+           display: flex;
+       }
+       .color-opacity-p{
+          color: #777777;
+          text-align: center;
+          margin-bottom: 5rem;
+       }
+    }
+    .step{
+       &-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+        & img{
+           margin-right: auto;
+           margin-left: auto;
+        }
+       }
+       &-item{
+        width: 100%;
+        max-width: 36.4rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        & h4{
+            margin-bottom: 3rem;
+        }
+        & img{
+            margin-bottom: 4rem;
+        }
+        & p{
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            max-width: 22.6rem;
+        }
+       }
+    }
+}
+
+
+//              ADDITIONAL SECTION
+
+.additional {
+    background-color: #fff;
+    &__container{
+        padding-top: 9.3rem;
+        padding-bottom: 8.7rem;
+
+    }
+    &-title{
+        font-size: $main-title-font-size;
+        line-height: $main-title-line-height;
+        color: $text-color-3;
+        margin-bottom: 4.1rem;
+        padding-left: 2rem;
+
+    }
+    &-list{
+        display: flex;
+    }
+    &-item{
+        width: 100%;
+        max-width: 29.8rem;
+        padding-left: 2rem;
+        padding-right: 3.5rem;
+        padding-bottom: .7rem;
+        & img{
+            margin-bottom: 3rem;
+        }
+        & h4{
+            margin-bottom: 1.3rem;
+        }
+
+    }
+}
+
+
+

@@ -1,0 +1,26 @@
+.header {
+    background-color: $header-footer-bg;
+}
+.header__container {
+    align-items: center;
+    padding: 2rem;
+    display: flex;
+}
+.logo {
+    margin-right: auto;
+}
+.logo-link {
+}
+.logo-img {
+}
+.sitenav {
+}
+.sitenav-list {
+    display: flex;
+}
+.sitenav-item:not(:last-child){
+    margin-right: 4rem;
+}
+.sitenav-link {
+    color: $white-color;
+}

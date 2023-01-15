@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+    font-size: 62.5%;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: flex;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $light-bg;
+    font-family: $main-font-family;
+    font-size: $global-font-size;
+    line-height: $global-line-height;
+    color: $text-color-1;
+}
+
+.container{
+    width: 100%;
+    max-width: 121.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+}
